@@ -1,0 +1,19 @@
+@mixin bouton {
+
+    color: $blanc;
+    background: $degrade;
+    border-radius: 10px;
+    display: grid;
+    align-self: center;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+@mixin flex ($justify, $align, $direction) {
+
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+    
+}  
